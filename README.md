@@ -7,8 +7,28 @@ cd game
 python3 main.py
 ```
 
-To create a virtual environment go to the desired folder and run:
+# App Project
+
+```sh
+git clone
+cd app
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
+
+## How to guides
+
+Create a virtual environment:
+- Go to the desired folder and run:
 ```sh
 python3 -m venv env    
 source env/bin/activate
 ```
+
+Aautomate the istallation of all dependencies:
+- Create a requirements.txt file with all the dependencies:
+  `pip3 freeze > requirements.txt`
+
+- Install all dependencies:
+  `pip3 install -r requirements.txt`
